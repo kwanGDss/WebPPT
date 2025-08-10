@@ -173,12 +173,7 @@ export function MainPage({ user, onNavigate }: MainPageProps) {
                 description: "개인별 성향과 상황에 최적화된 구체적인 행동 가이드를 제공합니다.",
                 color: "from-pink-500 to-red-500"
               },
-              {
-                icon: <Star className="w-8 h-8" />,
-                title: "MBTI 기반 공략법",
-                description: "상대방의 MBTI를 분석하여 성향에 맞는 최적의 어프로치 방법을 제안합니다.",
-                color: "from-orange-500 to-yellow-500"
-              },
+
               {
                 icon: <Shield className="w-8 h-8" />,
                 title: "완벽한 개인정보 보호",

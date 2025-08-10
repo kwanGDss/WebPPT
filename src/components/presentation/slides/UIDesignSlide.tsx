@@ -54,7 +54,7 @@ export function UIDesignSlide() {
               {[
                 "카톡/통화 파일 업로드",
                 "AI 감정 분석 & STT",
-                "MBTI 맞춤 연애 전략",
+                "맞춤 연애 전략",
                 "SNS 공유 & 마이페이지"
               ].map((feature, index) => (
                 <div key={index} className="flex items-center gap-2">
@@ -122,7 +122,7 @@ export function UIDesignSlide() {
               {[
                 "최근 분석: 3일 전",
                 "가장 높은 점수: 92점",
-                "MBTI 분석: 10회",
+                "감정 분석: 10회",
                 "음성 분석: 7회"
               ].map((stat, index) => (
                 <div key={index} className="flex items-center gap-2">

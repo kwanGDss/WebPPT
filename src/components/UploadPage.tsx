@@ -118,7 +118,7 @@ export function UploadPage({ user, onAnalysisComplete, onNavigate }: UploadPageP
       emotionCurve: Array.from({ length: 10 }, () => Math.floor(Math.random() * 40) + 30),
       bestMoment: "2024년 11월 15일 오후 9시경",
       loveQuote: "오늘 하루 어땠어? 라는 당신의 따뜻한 관심이 느껴져요 💕",
-      mbtiStrategy: "ENFP 성향으로 분석됩니다. 자유롭고 창의적인 활동을 함께 제안해보세요!",
+
       confessionTiming: "다음 주말, 둘만의 시간을 가질 때가 최적의 타이밍입니다.",
       conversationBalance: {
         me: Math.floor(Math.random() * 20) + 40,
@@ -391,7 +391,7 @@ export function UploadPage({ user, onAnalysisComplete, onNavigate }: UploadPageP
             {[
               { title: "썸 가능성 점수", desc: "0-100점 정밀 측정", color: "from-pink-500 to-red-500" },
               { title: "감정 변화 곡선", desc: "시간별 감정 추이", color: "from-blue-500 to-cyan-500" },
-              { title: "MBTI 기반 전략", desc: "성향별 맞춤 조언", color: "from-green-500 to-emerald-500" },
+
               { title: "최적 고백 타이밍", desc: "성공률 높은 시점", color: "from-purple-500 to-pink-500" }
             ].map((feature, index) => (
               <div key={index} className="text-center">

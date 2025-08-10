@@ -381,19 +381,6 @@ export function AnalysisResultPage({ analysisData, onNavigate }: AnalysisResultP
 
         {activeTab === 'strategy' && (
           <div className="space-y-8">
-            {/* MBTI Strategy */}
-            <GlassCard className="p-8">
-              <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center">
-                  <Brain className="w-6 h-6 text-white" />
-                </div>
-                <h3 className="text-xl font-bold text-gray-900">MBTI 기반 공략법</h3>
-              </div>
-              <div className="bg-gradient-to-r from-purple-50 to-pink-50 p-6 rounded-lg border border-purple-200">
-                <p className="text-gray-800 leading-relaxed">{analysisData.mbtiStrategy}</p>
-              </div>
-            </GlassCard>
-
             {/* Confession Timing */}
             <GlassCard className="p-8">
               <div className="flex items-center gap-3 mb-6">

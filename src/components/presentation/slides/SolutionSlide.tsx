@@ -27,7 +27,7 @@ export function SolutionSlide() {
             <div className="flex flex-wrap justify-center gap-3">
               <Badge className="bg-blue-50 text-blue-700 border-blue-300">대화 패턴 분석</Badge>
               <Badge className="bg-purple-50 text-purple-700 border-purple-300">음성 감정 인식</Badge>
-              <Badge className="bg-pink-50 text-pink-700 border-pink-300">MBTI 기반 전략</Badge>
+              <Badge className="bg-pink-50 text-pink-700 border-pink-300">맞춤형 전략</Badge>
               <Badge className="bg-green-50 text-green-700 border-green-300">실시간 점수 산출</Badge>
             </div>
           </div>

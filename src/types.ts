@@ -17,7 +17,7 @@ export interface AnalysisData {
   emotionCurve?: number[];
   bestMoment?: string;
   loveQuote?: string;
-  mbtiStrategy?: string;
+
   confessionTiming?: string;
   conversationBalance?: {
     me: number;

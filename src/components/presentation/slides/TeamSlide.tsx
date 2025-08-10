@@ -145,7 +145,7 @@ export function TeamSlide() {
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-purple-500 mb-2">맞춤 전략</div>
-              <div className="text-gray-600">MBTI 기반 개인화된 연애 조언</div>
+              <div className="text-gray-600">개인화된 연애 조언</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-pink-500 mb-2">실용성</div>
