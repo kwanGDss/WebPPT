@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/WebPPT/static/css/main.adb220cc.css",
+    "main.js": "/WebPPT/static/js/main.4b487c96.js",
+    "index.html": "/WebPPT/index.html",
+    "main.adb220cc.css.map": "/WebPPT/static/css/main.adb220cc.css.map",
+    "main.4b487c96.js.map": "/WebPPT/static/js/main.4b487c96.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.adb220cc.css",
+    "static/js/main.4b487c96.js"
+  ]
+}
