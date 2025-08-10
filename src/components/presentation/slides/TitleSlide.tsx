@@ -5,7 +5,7 @@ import { Badge } from '../../ui/badge';
 export function TitleSlide() {
   return (
     <Slide>
-      <div className="max-w-7xl w-full px-6 text-center z-10">
+      <div className="max-w-7xl w-full px-6 text-center z-10 pt-8">
         <div className="inline-flex items-center gap-3 mb-4">
           <div className="w-16 h-16 bg-gradient-to-r from-pink-500 to-purple-600 rounded-2xl flex items-center justify-center">
             <Heart className="w-8 h-8 text-white" />
@@ -13,7 +13,7 @@ export function TitleSlide() {
           <span className="text-3xl font-bold text-gray-800">Date Genie AI</span>
         </div>
 
-        <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-4 leading-tight">
+        <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 mb-4 leading-relaxed">
           AI 기반 연애 분석
           <br />
           <span className="bg-gradient-to-r from-pink-500 via-purple-500 to-blue-500 bg-clip-text text-transparent">
