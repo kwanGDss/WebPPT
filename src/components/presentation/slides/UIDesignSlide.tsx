@@ -34,9 +34,9 @@ export function UIDesignSlide() {
         {/* 주요 화면들 - 매우 컴팩트하게 */}
         <div className="backdrop-blur-xl bg-white/70 border border-white/50 rounded-2xl shadow-xl p-3">
           <h3 className="font-bold text-gray-800 text-center mb-2 text-sm">주요 화면 구성</h3>
-          <div className="grid grid-cols-6 gap-2">
+          <div className="flex flex-wrap justify-center gap-2">
             {UI_SCREENS.map((screen, index) => (
-              <div key={index} className="border border-gray-200 rounded-md p-2 bg-gradient-to-br from-gray-50 to-white text-center">
+              <div key={index} className="border border-gray-200 rounded-md p-2 bg-gradient-to-br from-gray-50 to-white text-center min-w-[120px]">
                 <div className="w-5 h-5 bg-gradient-to-br from-blue-500 to-purple-500 rounded-md flex items-center justify-center mx-auto mb-1">
                   <Layout className="w-3 h-3 text-white" />
                 </div>
@@ -86,14 +86,14 @@ export function UIDesignSlide() {
         {/* 마이페이지 내 데이터 섹션 */}
         <div className="backdrop-blur-xl bg-white/70 border border-white/50 rounded-2xl shadow-xl p-3">
           <h3 className="font-bold text-gray-800 text-center mb-3 text-sm">마이페이지 내 데이터</h3>
-          <div className="grid grid-cols-4 gap-2">
+          <div className="flex flex-wrap justify-center gap-2">
             {[
               { icon: <User className="w-4 h-4" />, label: "프로필 정보", value: "개인정보 관리", color: "from-blue-500 to-cyan-500" },
               { icon: <History className="w-4 h-4" />, label: "분석 이력", value: "과거 분석 결과", color: "from-purple-500 to-pink-500" },
               { icon: <BarChart3 className="w-4 h-4" />, label: "통계 대시보드", value: "성공률 분석", color: "from-green-500 to-emerald-500" },
               { icon: <Calendar className="w-4 h-4" />, label: "활동 기록", value: "사용 패턴 분석", color: "from-orange-500 to-red-500" }
             ].map((item, index) => (
-              <div key={index} className="border border-gray-200 rounded-lg p-2 bg-gradient-to-br from-gray-50 to-white text-center">
+              <div key={index} className="border border-gray-200 rounded-lg p-2 bg-gradient-to-br from-gray-50 to-white text-center min-w-[140px]">
                 <div className={`w-8 h-8 bg-gradient-to-br ${item.color} rounded-lg flex items-center justify-center mx-auto mb-1`}>
                   {item.icon}
                 </div>

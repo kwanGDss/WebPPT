@@ -128,20 +128,20 @@ export function Presentation() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          <div className="backdrop-blur-xl bg-white/70 border border-white/50 rounded-2xl shadow-xl p-6">
+          <div className="backdrop-blur-xl bg-white/70 border border-white/50 rounded-2xl shadow-xl p-6 h-full">
             <h3 className="text-xl font-bold text-gray-800 mb-4">성능 지표</h3>
-            <div className="space-y-3">
-              {PERFORMANCE_METRICS.slice(0, 4).map((metric, index) => (
-                <div key={index} className="flex items-center gap-3">
-                  <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center">
+            <div className="space-y-4 flex-1">
+              {PERFORMANCE_METRICS.map((metric, index) => (
+                <div key={index} className="flex items-center gap-4 p-3 bg-blue-50/50 rounded-lg">
+                  <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center">
                     {metric.icon}
                   </div>
                   <div className="flex-1">
-                    <div className="flex items-center gap-2">
-                      <span className="text-lg font-bold text-blue-600">{metric.metric}</span>
-                      <span className="font-medium text-gray-800 text-sm">{metric.label}</span>
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="text-xl font-bold text-blue-600">{metric.metric}</span>
+                      <span className="font-medium text-gray-800">{metric.label}</span>
                     </div>
-                    <p className="text-xs text-gray-600">목표: {metric.target}</p>
+                    <p className="text-sm text-gray-600">목표: {metric.target}</p>
                   </div>
                 </div>
               ))}

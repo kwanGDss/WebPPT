@@ -156,7 +156,7 @@ export const USER_JOURNEY = [
     step: "03",
     title: "AI 분석 처리",
     description: "업로드된 데이터를 AI가 종합 분석하여 결과 생성",
-    details: ["STT 변���", "감정 분석", "연애 조언 생성"],
+    details: ["STT 변환", "감정 분석", "연애 조언 생성"],
     duration: "3-5초",
     color: "from-purple-500 to-pink-500"
   },
@@ -216,7 +216,7 @@ export const PERFORMANCE_METRICS = [
   { metric: "95%+", label: "STT 변환 정확도", target: "95% 이상", icon: <Headphones className="w-5 h-5" /> },
   { metric: "90%+", label: "감정 분석 정확도", target: "90% 이상", icon: <Brain className="w-5 h-5" /> },
   { metric: "< 2초", label: "페이지 전환 속도", target: "2초 이내", icon: <Zap className="w-5 h-5" /> },
-  { metric: "< 3초", label: "결과 조회 시간", target: "3초 이내", icon: <Activity className="w-5 h-5" /> },
+  { metric: "< 20초", label: "결과 조회 시간", target: "20초 이내", icon: <Activity className="w-5 h-5" /> },
   { metric: "256bit", label: "데이터 암호화", target: "AES-256", icon: <ShieldCheck className="w-5 h-5" /> }
 ];
 
@@ -224,25 +224,25 @@ export const SECURITY_FEATURES = [
   {
     title: "데이터 암호화",
     description: "업로드되는 모든 파일을 AES-256으로 암호화",
-    implementation: "완료",
+    implementation: "진행중",
     priority: "높음"
   },
   {
     title: "2단계 인증",
     description: "마이페이지 접근 시 추가 보안 인증",
-    implementation: "진행중",
+    implementation: "계획",
     priority: "중간"
   },
   {
     title: "세션 관리",
     description: "안전한 세션 유지 및 자동 로그아웃",
-    implementation: "완료",
+    implementation: "진행중",
     priority: "높음"
   },
   {
     title: "개인정보 보호",
     description: "분석 완료 후 원본 파일 자동 삭제",
-    implementation: "완료",
+    implementation: "계획",
     priority: "최고"
   }
 ];
@@ -394,7 +394,7 @@ export const DEVELOPMENT_SCHEDULE = {
       endWeek: 4,   // 8월 3주
       duration: 3,
       color: "from-cyan-500 to-blue-500",
-      details: ["Chart.js 구현", "D3.js 그래프", "프로그레스 바", "시��적 표현"]
+      details: ["Chart.js 구현", "D3.js 그래프", "프로그레스 바", "시각적 표현"]
     },
     {
       task: "백엔드 시스템 및 DB 구축",
@@ -428,7 +428,7 @@ export const DEVELOPMENT_PHASES = [
     color: "from-green-500 to-emerald-500",
     tasks: [
       { task: "서비스 기획 및 로직 정의", status: "완료" },
-      { task: "UI/UX 설계 ��작", status: "완료" },
+      { task: "UI/UX 설계 및 구현", status: "완료" },
       { task: "팀 역할 분담", status: "완료" }
     ]
   },

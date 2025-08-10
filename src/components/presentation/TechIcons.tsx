@@ -1,5 +1,6 @@
 import React from 'react';
 import { ImageWithFallback } from '../figma/ImageWithFallback';
+import { Server } from 'lucide-react';
 
 // 레거시 SVG 아이콘들 (필요시 사용)
 export function GoogleSTTIcon({ className }: { className?: string }) {
@@ -69,7 +70,7 @@ export function JavaLogo({ className }: { className?: string }) {
 export function TomcatLogo({ className }: { className?: string }) {
   return (
     <ImageWithFallback
-      src="https://cdn.worldvectorlogo.com/logos/apache-tomcat.svg"
+      src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tomcat/tomcat-original.svg"
       alt="Apache Tomcat"
       className={`${className} object-contain`}
     />
