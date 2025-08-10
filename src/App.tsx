@@ -10,7 +10,7 @@ import { AllSlidesView } from './components/AllSlidesView';
 import { Presentation as SlideMode } from './components/Presentation';
 import { PresentationMode } from './components/PresentationMode';
 
-type ViewMode = 'all-slides' | 'slide-mode' | 'presentation';
+type ViewMode = 'slide-mode' | 'presentation';
 
 export default function App() {
   const [currentView, setCurrentView] = useState<ViewMode>('slide-mode');
@@ -32,18 +32,6 @@ export default function App() {
             </div>
 
             <div className="flex items-center gap-2">
-              <Button
-                size="sm"
-                onClick={() => setCurrentView('all-slides')}
-                className={`flex items-center gap-2 px-4 py-2 rounded-lg transition-all duration-200 ${
-                  currentView === 'all-slides'
-                    ? 'bg-gray-900 text-white shadow-lg hover:bg-gray-800 active:bg-gray-950'
-                    : 'bg-white text-gray-900 border border-gray-200 hover:bg-gray-50 hover:border-gray-300 active:bg-gray-100'
-                }`}
-              >
-                <List className="w-4 h-4" />
-                전체 내용 보기
-              </Button>
               <Button
                 size="sm"
                 onClick={() => setCurrentView('slide-mode')}
@@ -75,13 +63,9 @@ export default function App() {
 
       {/* Main Content */}
       <main className="relative">
-        {currentView === 'all-slides' && <AllSlidesView />}
         {currentView === 'slide-mode' && <SlideMode />}
         {currentView === 'presentation' && <PresentationMode />}
       </main>
-
-      {/* Footer - Only show in all-slides view */}
-      {currentView === 'all-slides' && (
         <footer className="bg-white/50 backdrop-blur-sm border-t border-gray-200/50 py-6">
           <div className="max-w-7xl mx-auto px-6">
             <div className="flex items-center justify-between">
@@ -99,7 +83,6 @@ export default function App() {
             </div>
           </div>
         </footer>
-      )}
     </div>
   );
 }

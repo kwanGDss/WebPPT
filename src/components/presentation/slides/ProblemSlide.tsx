@@ -6,9 +6,9 @@ export function ProblemSlide() {
   return (
     <Slide>
       <div className="max-w-7xl w-full px-6 z-10">
-        <div className="text-center mb-16">
+        <div className="text-center mb-8">
           <Badge className="bg-red-500/20 text-red-600 border-red-500/30 mb-4">Problem</Badge>
-          <h2 className="text-4xl font-bold text-gray-900 mb-6">현재 연애 시장의 문제점</h2>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">현재 연애 시장의 문제점</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             디지털 시대의 연애는 더욱 복잡해졌지만, 이를 해결할 과학적 도구는 부족합니다
           </p>

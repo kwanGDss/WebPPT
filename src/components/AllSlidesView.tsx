@@ -59,7 +59,7 @@ export function AllSlidesView() {
   // 슬라이드 데이터 정의
   const slides = [
     // 0. 타이틀 슬라이드
-    <div key="title" className="h-full flex items-center justify-center">
+    <div key="title" className="h-full flex items-start justify-center pt-20">
       <div className="text-center">
         <div className="w-32 h-32 bg-gradient-to-br from-pink-500 via-purple-500 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-12 animate-pulse">
           <Heart className="w-16 h-16 text-white" />
@@ -81,9 +81,9 @@ export function AllSlidesView() {
     </div>,
 
     // 1. 문제점 슬라이드
-    <div key="problem" className="h-full flex items-center justify-center">
+    <div key="problem" className="h-full flex items-start justify-center pt-16">
       <div className="w-full">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <Badge className="bg-red-500/20 text-red-600 border-red-500/30 mb-4">Problem</Badge>
           <h2 className="text-4xl font-bold text-gray-900 mb-6">현재 연애 상담의 문제점</h2>
         </div>
@@ -128,9 +128,9 @@ export function AllSlidesView() {
     </div>,
 
     // 2. 솔루션 슬라이드
-    <div key="solution" className="h-full flex items-center justify-center">
+    <div key="solution" className="h-full flex items-start justify-center pt-16">
       <div className="w-full">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <Badge className="bg-blue-500/20 text-blue-600 border-blue-500/30 mb-4">Solution</Badge>
           <h2 className="text-4xl font-bold text-gray-900 mb-6">Date Genie AI 솔루션</h2>
           <p className="text-xl text-gray-600">AI 기술과 심리학 이론의 완벽한 결합</p>
@@ -193,9 +193,9 @@ export function AllSlidesView() {
     </div>,
 
     // 3. 타겟 시장 슬라이드
-    <div key="market" className="h-full flex items-center justify-center">
+    <div key="market" className="h-full flex items-start justify-center pt-16">
       <div className="w-full">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <Badge className="bg-blue-500/20 text-blue-600 border-blue-500/30 mb-4">Market</Badge>
           <h2 className="text-4xl font-bold text-gray-900 mb-6">타겟 시장 분석</h2>
           <p className="text-xl text-gray-600">국내 420만명 데이팅 앱 사용자 대상</p>
@@ -244,9 +244,9 @@ export function AllSlidesView() {
     </div>,
 
     // 4. 핵심 기능 슬라이드
-    <div key="features" className="h-full flex items-center justify-center">
+    <div key="features" className="h-full flex items-start justify-center pt-16">
       <div className="w-full">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <Badge className="bg-purple-500/20 text-purple-600 border-purple-500/30 mb-4">Features</Badge>
           <h2 className="text-4xl font-bold text-gray-900 mb-6">핵심 기능</h2>
           <p className="text-xl text-gray-600">요구사항 정의서 기반 6대 핵심 기능</p>
@@ -280,9 +280,9 @@ export function AllSlidesView() {
     </div>,
 
     // 5. 기술 스택 슬라이드
-    <div key="technology" className="h-full flex items-center justify-center">
+    <div key="technology" className="h-full flex items-start justify-center pt-16">
       <div className="w-full">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <Badge className="bg-indigo-500/20 text-indigo-600 border-indigo-500/30 mb-4">Technology</Badge>
           <h2 className="text-4xl font-bold text-gray-900 mb-6">기술 스택</h2>
           <p className="text-xl text-gray-600">검증된 최신 기술을 활용한 안정적인 서비스</p>
@@ -340,9 +340,9 @@ export function AllSlidesView() {
     </div>,
 
     // 6. 사용자 여정 슬라이드
-    <div key="user-journey" className="h-full flex items-center justify-center">
+    <div key="user-journey" className="h-full flex items-start justify-center pt-16">
       <div className="w-full">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <Badge className="bg-teal-500/20 text-teal-600 border-teal-500/30 mb-4">User Journey</Badge>
           <h2 className="text-4xl font-bold text-gray-900 mb-6">사용자 여정</h2>
           <p className="text-xl text-gray-600">5단계로 완성되는 맞춤형 연애 전략</p>
@@ -377,9 +377,9 @@ export function AllSlidesView() {
     </div>,
 
     // 7. UI/UX 디자인 슬라이드
-    <div key="design" className="h-full flex items-center justify-center">
+    <div key="design" className="h-full flex items-start justify-center pt-16">
       <div className="w-full">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <Badge className="bg-pink-500/20 text-pink-600 border-pink-500/30 mb-4">Design</Badge>
           <h2 className="text-4xl font-bold text-gray-900 mb-6">UI/UX 디자인</h2>
           <p className="text-xl text-gray-600">감성적이고 직관적인 사용자 경험</p>
@@ -407,9 +407,9 @@ export function AllSlidesView() {
     </div>,
 
     // 8. 개발 일정 슬라이드
-    <div key="schedule" className="h-full flex items-center justify-center">
+    <div key="schedule" className="h-full flex items-start justify-center pt-16">
       <div className="w-full">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <Badge className="bg-yellow-500/20 text-yellow-600 border-yellow-500/30 mb-4">Schedule</Badge>
           <h2 className="text-4xl font-bold text-gray-900 mb-6">개발 일정</h2>
           <p className="text-xl text-gray-600">체계적인 6개월 개발 계획</p>
@@ -447,9 +447,9 @@ export function AllSlidesView() {
     </div>,
 
     // 9. 성능 & 보안 슬라이드
-    <div key="performance" className="h-full flex items-center justify-center">
+    <div key="performance" className="h-full flex items-start justify-center pt-16">
       <div className="w-full">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <Badge className="bg-red-500/20 text-red-600 border-red-500/30 mb-4">Performance</Badge>
           <h2 className="text-4xl font-bold text-gray-900 mb-6">성능 & 보안</h2>
           <p className="text-xl text-gray-600">요구사항 정의서의 모든 성능 지표 달성</p>
@@ -501,7 +501,7 @@ export function AllSlidesView() {
     </div>,
 
     // 10. 감사 인사 슬라이드
-    <div key="thanks" className="h-full flex items-center justify-center">
+    <div key="thanks" className="h-full flex items-start justify-center pt-20">
       <div className="text-center">
         <div className="w-32 h-32 bg-gradient-to-br from-pink-500 via-purple-500 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-12 animate-pulse">
           <Heart className="w-16 h-16 text-white" />

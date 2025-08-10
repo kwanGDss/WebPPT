@@ -10,9 +10,9 @@ export function TechnologySlide() {
   return (
     <Slide>
       <div className="max-w-7xl w-full px-6 z-10">
-        <div className="text-center mb-6">
-          <Badge className="bg-cyan-500/20 text-cyan-600 border-cyan-500/30 mb-3">Technology Stack</Badge>
-          <h2 className="text-2xl font-bold text-gray-900 mb-3">기술 스택 & AI 모델</h2>
+        <div className="text-center mb-4">
+          <Badge className="bg-cyan-500/20 text-cyan-600 border-cyan-500/30 mb-2">Technology Stack</Badge>
+          <h2 className="text-2xl font-bold text-gray-900 mb-2">기술 스택 & AI 모델</h2>
           <p className="text-lg text-gray-600 mb-2">
             <span className="font-semibold text-cyan-600">요구사항 정의서 기반 최적화된 기술 아키텍처</span>
           </p>

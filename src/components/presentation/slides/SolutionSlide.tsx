@@ -6,15 +6,15 @@ export function SolutionSlide() {
   return (
     <Slide>
       <div className="max-w-7xl w-full px-6 z-10">
-        <div className="text-center mb-16">
-          <Badge className="bg-green-500/20 text-green-600 border-green-500/30 mb-4">Solution</Badge>
-          <h2 className="text-4xl font-bold text-gray-900 mb-6">Date Genie AI 솔루션</h2>
+        <div className="text-center mb-8">
+          <Badge className="bg-green-500/20 text-green-600 border-green-500/30 mb-2">Solution</Badge>
+          <h2 className="text-4xl font-bold text-gray-900 mb-4">Date Genie AI 솔루션</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             AI 기반 텍스트·음성 분석으로 연애 가능성을 정확히 예측하고 맞춤형 전략을 제공
           </p>
         </div>
 
-        <div className="mb-12">
+        <div className="mb-8">
           <div className="backdrop-blur-xl bg-white/70 border border-white/50 rounded-2xl shadow-xl p-12 text-center">
             <div className="w-24 h-24 bg-gradient-to-br from-blue-500 to-purple-600 rounded-3xl flex items-center justify-center mx-auto mb-8">
               <Zap className="w-12 h-12 text-white" />

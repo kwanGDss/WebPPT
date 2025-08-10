@@ -29,9 +29,9 @@ export function Presentation() {
     // Target Market Slide (3)
     <Slide key={3}>
       <div className="max-w-7xl w-full px-6 z-10">
-        <div className="text-center mb-6">
-          <Badge className="bg-blue-500/20 text-blue-600 border-blue-500/30 mb-3">Market</Badge>
-          <h2 className="text-2xl font-bold text-gray-900 mb-3">타겟 시장 분석</h2>
+        <div className="text-center mb-4">
+          <Badge className="bg-blue-500/20 text-blue-600 border-blue-500/30 mb-2">Market</Badge>
+          <h2 className="text-2xl font-bold text-gray-900 mb-2">타겟 시장 분석</h2>
           <p className="text-lg text-gray-600">국내 420만명 데이팅 앱 사용자 대상</p>
         </div>
 
@@ -80,9 +80,9 @@ export function Presentation() {
     // Key Features Slide (4)
     <Slide key={4}>
       <div className="max-w-7xl w-full px-6 z-10">
-        <div className="text-center mb-6">
-          <Badge className="bg-purple-500/20 text-purple-600 border-purple-500/30 mb-3">Features</Badge>
-          <h2 className="text-2xl font-bold text-gray-900 mb-3">핵심 기능</h2>
+        <div className="text-center mb-4">
+          <Badge className="bg-purple-500/20 text-purple-600 border-purple-500/30 mb-2">Features</Badge>
+          <h2 className="text-2xl font-bold text-gray-900 mb-2">핵심 기능</h2>
           <p className="text-lg text-gray-600">요구사항 정의서 기반 6대 핵심 기능</p>
         </div>
 
@@ -121,9 +121,9 @@ export function Presentation() {
     // Performance & Security Slide (9)
     <Slide key={9}>
       <div className="max-w-7xl w-full px-6 z-10">
-        <div className="text-center mb-6">
-          <Badge className="bg-red-500/20 text-red-600 border-red-500/30 mb-3">Performance</Badge>
-          <h2 className="text-2xl font-bold text-gray-900 mb-3">성능 & 보안</h2>
+        <div className="text-center mb-4">
+          <Badge className="bg-red-500/20 text-red-600 border-red-500/30 mb-2">Performance</Badge>
+          <h2 className="text-2xl font-bold text-gray-900 mb-2">성능 & 보안</h2>
           <p className="text-lg text-gray-600">요구사항 정의서의 모든 성능 지표 달성</p>
         </div>
 
