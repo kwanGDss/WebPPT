@@ -29,42 +29,42 @@ export function Presentation() {
     // Target Market Slide (3)
     <Slide key={3}>
       <div className="max-w-7xl w-full px-6 z-10">
-        <div className="text-center mb-4">
+        <div className="text-center mb-3">
           <Badge className="bg-blue-500/20 text-blue-600 border-blue-500/30 mb-2">Market</Badge>
-          <h2 className="text-2xl font-bold text-gray-900 mb-2">타겟 시장 분석</h2>
-          <p className="text-lg text-gray-600">국내 420만명 데이팅 앱 사용자 대상</p>
+          <h2 className="text-4xl font-bold text-gray-900 mb-2">타겟 시장 분석</h2>
+          <p className="text-xl text-gray-600">국내 420만명 데이팅 앱 사용자 대상</p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          <div className="backdrop-blur-xl bg-white/70 border border-white/50 rounded-2xl shadow-xl p-6">
-            <h3 className="text-xl font-bold text-gray-800 mb-4">시장 규모</h3>
-            <div className="space-y-4">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <div className="backdrop-blur-xl bg-white/70 border border-white/50 rounded-2xl shadow-xl p-4">
+            <h3 className="text-xl font-bold text-gray-800 mb-3">시장 규모</h3>
+            <div className="space-y-3">
               <div className="flex justify-between items-center">
-                <span className="text-gray-600">20-30대 인구</span>
+                <span className="text-gray-600 text-lg">20-30대 인구</span>
                 <span className="text-2xl font-bold text-blue-500">850만명</span>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-gray-600">데이팅 앱 사용자</span>
+                <span className="text-gray-600 text-lg">데이팅 앱 사용자</span>
                 <span className="text-2xl font-bold text-green-500">420만명</span>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-gray-600">타겟 시장 규모</span>
+                <span className="text-gray-600 text-lg">타겟 시장 규모</span>
                 <span className="text-2xl font-bold text-purple-500">₩650억</span>
               </div>
             </div>
           </div>
 
-          <div className="backdrop-blur-xl bg-white/70 border border-white/50 rounded-2xl shadow-xl p-6">
-            <h3 className="text-xl font-bold text-gray-800 mb-4">핵심 타겟 고객</h3>
-            <div className="space-y-3">
+          <div className="backdrop-blur-xl bg-white/70 border border-white/50 rounded-2xl shadow-xl p-4">
+            <h3 className="text-xl font-bold text-gray-800 mb-3">핵심 타겟 고객</h3>
+            <div className="space-y-2">
               {TARGET_CUSTOMERS.map((target, index) => (
-                <div key={index} className="flex items-center gap-3">
-                  <div className={`w-10 h-10 bg-gradient-to-br ${target.color} rounded-xl flex items-center justify-center`}>
+                <div key={index} className="flex items-center gap-2">
+                  <div className={`w-8 h-8 bg-gradient-to-br ${target.color} rounded-lg flex items-center justify-center`}>
                     {target.icon}
                   </div>
                   <div className="flex-1">
-                    <h4 className="font-bold text-gray-800 text-sm">{target.title}</h4>
-                    <p className="text-xs text-gray-600">{target.description}</p>
+                    <h4 className="font-bold text-gray-800 text-base">{target.title}</h4>
+                    <p className="text-sm text-gray-600">{target.description}</p>
                   </div>
                   <Badge className="bg-green-100 text-green-700 border-green-300 text-xs">
                     {target.percentage}
@@ -82,8 +82,8 @@ export function Presentation() {
       <div className="max-w-7xl w-full px-6 z-10">
         <div className="text-center mb-4">
           <Badge className="bg-purple-500/20 text-purple-600 border-purple-500/30 mb-2">Features</Badge>
-          <h2 className="text-2xl font-bold text-gray-900 mb-2">핵심 기능</h2>
-          <p className="text-lg text-gray-600">요구사항 정의서 기반 6대 핵심 기능</p>
+          <h2 className="text-4xl font-bold text-gray-900 mb-2">핵심 기능</h2>
+          <p className="text-xl text-gray-600">요구사항 정의서 기반 6대 핵심 기능</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -97,13 +97,13 @@ export function Presentation() {
                   {feature.accuracy}
                 </Badge>
               </div>
-              <h3 className="font-bold text-gray-800 mb-2">{feature.title}</h3>
-              <p className="text-gray-600 text-sm mb-3 leading-relaxed">{feature.description}</p>
+              <h3 className="font-bold text-gray-800 mb-2 text-lg">{feature.title}</h3>
+              <p className="text-gray-600 text-base mb-3 leading-relaxed">{feature.description}</p>
               <div className="space-y-1">
                 {feature.features.map((item, idx) => (
                   <div key={idx} className="flex items-center gap-2">
                     <div className="w-1.5 h-1.5 bg-green-400 rounded-full flex-shrink-0" />
-                    <span className="text-gray-600 text-xs">{item}</span>
+                    <span className="text-gray-600 text-sm">{item}</span>
                   </div>
                 ))}
               </div>
@@ -337,14 +337,7 @@ export function Presentation() {
         </div>
       </div>
 
-      {/* Slide Counter */}
-      <div className="absolute right-8 top-4 z-20">
-        <div className="backdrop-blur-xl bg-white/70 border border-white/50 rounded-2xl shadow-xl px-4 py-2">
-          <span className="text-gray-700 font-medium">
-            {currentSlide + 1} / {slides.length}
-          </span>
-        </div>
-      </div>
+
     </div>
   );
 }

@@ -256,43 +256,14 @@ export function PresentationMode() {
           </div>
         )}
 
-        {/* 발표자 노트 */}
-        {showNotes && !isFullscreen && (
-          <div className="absolute bottom-6 left-6 right-6 z-50 max-h-48">
-            <div className="bg-black/80 backdrop-blur-xl border border-white/20 rounded-xl p-4 text-white">
-              <h4 className="font-bold mb-2">발표자 노트</h4>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 text-sm">
-                {presenterNotes.map((note, index) => (
-                  <div key={index} className="bg-white/10 rounded-lg p-2">
-                    <span className="text-gray-300 text-xs">슬라이드 {index + 1}:</span>
-                    <p className="text-white">{note}</p>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        )}
+
 
         {/* 프레젠테이션 본체 */}
         <div className="w-full h-full">
           <Presentation />
         </div>
 
-        {/* 키보드 단축키 안내 */}
-        {!isFullscreen && (
-          <div className="absolute bottom-6 right-6 z-50">
-            <div className="bg-black/60 backdrop-blur-xl border border-white/20 rounded-lg p-3 text-white text-xs">
-              <div className="grid grid-cols-2 gap-2">
-                <div>← → : 슬라이드 이동</div>
-                <div>F : 풀스크린</div>
-                <div>Space : 다음</div>
-                <div>N : 노트</div>
-                <div>ESC : 종료</div>
-                <div>Home/End : 처음/끝</div>
-              </div>
-            </div>
-          </div>
-        )}
+
       </div>
     );
   }
@@ -357,7 +328,7 @@ export function PresentationMode() {
                 <p>• 시간 표시와 경과 시간을 확인할 수 있습니다</p>
                 <p>• 풀스크린 모드에서 가장 효과적입니다</p>
                 <p>• ESC 키로 언제든 발표를 중단할 수 있습니다</p>
-                <p>• 프레젠테���션 시작 시 자동으로 풀스크린됩니다</p>
+                <p>• 프레젠테이션 시작 시 자동으로 풀스크린됩니다</p>
               </div>
             </div>
           </div>

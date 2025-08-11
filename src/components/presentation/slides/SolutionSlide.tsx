@@ -8,8 +8,8 @@ export function SolutionSlide() {
       <div className="max-w-7xl w-full px-6 z-10">
         <div className="text-center mb-8">
           <Badge className="bg-green-500/20 text-green-600 border-green-500/30 mb-2">Solution</Badge>
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">Date Genie AI 솔루션</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <h2 className="text-5xl font-bold text-gray-900 mb-4">Date Genie AI 솔루션</h2>
+          <p className="text-2xl text-gray-600 max-w-3xl mx-auto">
             AI 기반 텍스트·음성 분석으로 연애 가능성을 정확히 예측하고 맞춤형 전략을 제공
           </p>
         </div>
@@ -19,8 +19,8 @@ export function SolutionSlide() {
             <div className="w-24 h-24 bg-gradient-to-br from-blue-500 to-purple-600 rounded-3xl flex items-center justify-center mx-auto mb-8">
               <Zap className="w-12 h-12 text-white" />
             </div>
-            <h3 className="text-3xl font-bold text-gray-800 mb-6">AI 기반 종합 연애 분석 플랫폼</h3>
-            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed mb-8">
+            <h3 className="text-4xl font-bold text-gray-800 mb-6">AI 기반 종합 연애 분석 플랫폼</h3>
+            <p className="text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed mb-8">
               머신러닝과 자연어 처리 기술을 활용하여 카카오톡 대화와 통화 녹음을 종합 분석하고,
               개인화된 연애 전략과 썸 가능성 점수를 제공하는 혁신적인 서비스
             </p>
@@ -40,8 +40,8 @@ export function SolutionSlide() {
                 <Heart className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h4 className="text-xl font-bold text-gray-800 mb-3">핵심 가치 제안</h4>
-                <ul className="space-y-2 text-gray-600">
+                <h4 className="text-2xl font-bold text-gray-800 mb-3">핵심 가치 제안</h4>
+                <ul className="space-y-2 text-gray-600 text-lg">
                   <li className="flex items-center gap-2">
                     <CheckCircle className="w-4 h-4 text-green-500" />
                     <span>97% 정확도의 감정 분석</span>
@@ -69,8 +69,8 @@ export function SolutionSlide() {
                 <TrendingUp className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h4 className="text-xl font-bold text-gray-800 mb-3">기대 효과</h4>
-                <ul className="space-y-2 text-gray-600">
+                <h4 className="text-2xl font-bold text-gray-800 mb-3">기대 효과</h4>
+                <ul className="space-y-2 text-gray-600 text-lg">
                   <li className="flex items-center gap-2">
                     <div className="w-4 h-4 bg-blue-500 rounded-full flex-shrink-0" />
                     <span>연애 성공률 40% 향상</span>

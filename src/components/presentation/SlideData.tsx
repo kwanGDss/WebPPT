@@ -13,7 +13,7 @@ export const PROBLEM_ISSUES = [
     icon: <MessageCircle className="w-8 h-8" />,
     title: "텍스트 소통의 한계",
     problem: "카카오톡 메시지만으로는 상대방의 진짜 감정을 파악하기 어려움",
-    stat: "95%의 사람들이 경험",
+    stat: "대부분의 사람들이 경험",
     impact: "오해와 갈등으로 인한 관계 파탄",
     color: "from-red-500 to-pink-500"
   },
@@ -21,15 +21,15 @@ export const PROBLEM_ISSUES = [
     icon: <Brain className="w-8 h-8" />,
     title: "주관적 해석의 위험",
     problem: "개인의 감정 상태에 따른 편향된 메시지 해석",
-    stat: "연애 실패의 67%가 소통 문제",
+    stat: "연애 실패의 대부분이 소통 문제",
     impact: "잘못된 판단으로 인한 기회 상실",
     color: "from-orange-500 to-red-500"
   },
   {
     icon: <Target className="w-8 h-8" />,
-    title: "과학적 전략�� 부재",
+    title: "과학적 전략 부재",
     problem: "체계적이고 데이터 기반의 연애 가이드라인 부족",
-    stat: "80%가 감에 의존한 연애",
+    stat: "대부분이 감에 의존한 연애",
     impact: "시행착오 반복과 자신감 하락",
     color: "from-yellow-500 to-orange-500"
   }

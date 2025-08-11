@@ -66,7 +66,8 @@ export default function App() {
         {currentView === 'slide-mode' && <SlideMode />}
         {currentView === 'presentation' && <PresentationMode />}
       </main>
-        <footer className="bg-white/50 backdrop-blur-sm border-t border-gray-200/50 py-6">
+        {/* 발표/슬라이드 모드에서도 레이아웃 틀은 유지 */}
+        <footer className={`bg-white/50 backdrop-blur-sm border-t border-gray-200/50 py-6`}>
           <div className="max-w-7xl mx-auto px-6">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-4">
