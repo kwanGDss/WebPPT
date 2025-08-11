@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/WebPPT/static/css/main.8d34427d.css",
-    "main.js": "/WebPPT/static/js/main.f3feb8e1.js",
+    "main.css": "/WebPPT/static/css/main.ad7f0eba.css",
+    "main.js": "/WebPPT/static/js/main.c3047551.js",
     "index.html": "/WebPPT/index.html",
-    "main.8d34427d.css.map": "/WebPPT/static/css/main.8d34427d.css.map",
-    "main.f3feb8e1.js.map": "/WebPPT/static/js/main.f3feb8e1.js.map"
+    "main.ad7f0eba.css.map": "/WebPPT/static/css/main.ad7f0eba.css.map",
+    "main.c3047551.js.map": "/WebPPT/static/js/main.c3047551.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d34427d.css",
-    "static/js/main.f3feb8e1.js"
+    "static/css/main.ad7f0eba.css",
+    "static/js/main.c3047551.js"
   ]
 }
